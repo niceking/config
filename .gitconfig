@@ -1,0 +1,11 @@
+[user]
+	name = niceking
+	email = roseyylu@gmail.com
+[core]
+	excludesfile = /Users/roselu/.gitignore_global
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[push]
+	default = simple
